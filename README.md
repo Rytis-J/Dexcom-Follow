@@ -3,5 +3,5 @@ Have an issue with dexcom follow app? Get your live dexcom data via email/ live 
 
 
 Setup:
-	pip install -r requirements.txt
-	pip install email-to
+<bold>pip install -r requirements.txt<bold>
+pip install email-to
