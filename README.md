@@ -14,4 +14,6 @@ Usage. There are 2 modes you can choose from:
 
 
 - **Mode [2] Subscribe to the latest data with your email**: If you want to subscribe with your email to recieve the latest glucose readings, please enter all the emails you want to subscribe with in mails.txt box. Then run the program and choose the second option.
-![livedexcom](https://user-images.githubusercontent.com/72869230/163672258-32efccd5-ca88-46b6-8780-6e77f0c36990.png)
+<br>
+![Screenshot 2022-04-16 135901](https://user-images.githubusercontent.com/72869230/163672421-30713d86-6b11-4e1c-8e06-d5ae7a4007b0.png)
+
