@@ -48,6 +48,7 @@ There are 2 modes you can choose from:
   high_glucose = 10 | high_glucose = 180 (if using mg/dl)            
   ```
   *Line 24*
+  
   **The script is going to play an alert sound if blood sugar levels are going to go be equal or below this level (in this example 4 mmol/L)**
   ```
   low_glucose = 4
