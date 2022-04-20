@@ -15,7 +15,7 @@ Have an issue with your Dexcom Follow app? Or maybe you just want to get your De
   
   
 # Logging in
-For the code to function, you must type in your Dexcom credentials. Optionally, if you want to receive your data via email you will need to prompt in your email credentials inside dedicated variables. You can do it all by editing mydata.py variables or by entering data when running mydata.py.
+For the code to function, you must type in your Dexcom credentials. Optionally, if you want to receive your data via email you will need to prompt in your email credentials inside dedicated variables. You can do it all by editing mydata.py variables or by entering data when running mydata.py. By default code works only with gmail accounts. If you wish to change service provider go to # https://www.systoolsgroup.com/imap/ and change ```gmail_host```(line 116) value to your chosen one.
 
 # Usage 
 There are 2 modes you can choose from:
