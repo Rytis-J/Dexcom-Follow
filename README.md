@@ -5,7 +5,8 @@ Have an issue with dexcom follow app? Get your live Dexcom data via email/live i
 # Logging in
 In order for the code to function properly, you must
 
-Usage. There are 2 modes you can choose from:
+# Usage 
+There are 2 modes you can choose from:
 ![Screenshot 2022-04-20 154224](https://user-images.githubusercontent.com/72869230/164232805-6f5cacfa-3fc5-45c3-b609-2773194b6c24.png)
 
 
