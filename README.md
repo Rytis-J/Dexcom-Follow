@@ -31,8 +31,12 @@ There are 2 modes you can choose from:
 - **Mode [2] Subscribe to the latest data with your email**: If you want to subscribe with your or any other email and receive the latest glucose readings, please enter all the emails within the mails.txt box. Then run the script and choose the second option. Note: In order to send emails you must allow less secure apps to access your gmail account. I would recommend creating a new a new one. Here is an article explaining how to do it! https://devanswers.co/allow-less-secure-apps-access-gmail-account/
 
   ![Screenshot 2022-04-16 135901](https://user-images.githubusercontent.com/72869230/163672510-b4ee7990-f23b-4f33-9c52-bb37f307d305.png)
-
-  
+# Settings
+  # Setting alerts:
+  **Script is going to play alert sound if glucose is going to reach this level**
+  ```
+  high_glucose = 10
+  ```
 # Start
   ```
   python mydata.py
