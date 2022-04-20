@@ -1,5 +1,5 @@
 # Dexcom-follow
-Having an issue with your dexcom follow app? Or maybe you just want to get your dexcom data/recieve alerts on computer?! Get your live Dexcom data via email, live in your Command Prompt!
+Having an issue with your Dexcom Follow app? Or maybe you just want to get your Dexcom data/recieve alerts on computer?! Get your live Dexcom data via email, live in your Command Prompt!
 
 # Setup
   If not installed, install Python 3, Git - https://www.python.org/downloads/ https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
@@ -22,7 +22,7 @@ There are 2 modes you can choose from:
 ![Screenshot 2022-04-20 154224](https://user-images.githubusercontent.com/72869230/164232805-6f5cacfa-3fc5-45c3-b609-2773194b6c24.png)
 
 
-- **Mode [1] Live Glucose.**: Shows CGM data from the latest scan. You can set high and low glucose alerts by setting the dedicated variables to the number you want (high_glucose = 10), and if your sugar levels are going to exceed these boundaries you will hear a beep. You can remove the alerts by setting the sounds value to false (sounds = False).
+- **Mode [1] Live Glucose.**: Shows CGM data from the latest scan. You can set high and low glucose alerts by setting the dedicated variables to the number you want (high_glucose = 10)(low_glucose = 5), and if your sugar levels are going to exceed these boundaries you will hear a beep. You can remove the alerts by setting the sounds value to false (sounds = False).
 
   ![Screenshot 2022-04-16 140313](https://user-images.githubusercontent.com/72869230/163672561-9c9b7a5a-f4f3-41d1-abcf-8cef3a010b82.png)
 
