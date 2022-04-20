@@ -50,7 +50,7 @@ There are 2 modes you can choose from:
   sounds = False
   ```
   ## Receiving emails
-  **This variable will determine how often will you receive emails. (In this ex. every 5 minutes) X>=5
+  **This variable will determine how often will you receive emails. (In this ex. every 5 minutes) X>=5**
   ```
   send_email_every_x_minutes = 5
   ```
