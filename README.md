@@ -2,7 +2,7 @@
 Having an issue with your Dexcom Follow app? Or maybe you just want to get your Dexcom data/recieve alerts on computer?! Get your live Dexcom data via email, live in your Command Prompt!
 
 # Setup
-  If not installed, install Python 3, Git - https://www.python.org/downloads/, https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+  If not installed, install Python 3, Git - https://www.python.org/downloads/, https://git-scm.com/book/en/v2/Getting-Started-Installing-Git.
   ```
   git clone https://github.com/Rytis-J/dexcomfollow.git
   ```
@@ -15,7 +15,7 @@ Having an issue with your Dexcom Follow app? Or maybe you just want to get your 
   
   
 # Logging in
-In order for the code to function, you must type in your dexcom credentials. Optionaly, if you want to recieve your data via email you will need to prompt in your email credentials inside dedicated veriables. You can do it all by editing mydata.py veriables or by entering data when running mydata.py
+In order for the code to function, you must type in your dexcom credentials. Optionaly, if you want to recieve your data via email you will need to prompt in your email credentials inside dedicated veriables. You can do it all by editing mydata.py veriables or by entering data when running mydata.py.
 
 # Usage 
 There are 2 modes you can choose from:
