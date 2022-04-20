@@ -41,7 +41,7 @@ There are 2 modes you can choose from:
   ```
   low_glucose = 4
   ```
-  **By setting this option to True, you are going to receive alerts if your blood sugar levels are going to exceed the set range (high_glucose < X < low_glucose)**
+  **By setting this option to True, you are going to receive alerts if your blood sugar levels are going to exceed the set range**
   ```
   sounds = True
   ```
