@@ -1,7 +1,10 @@
 # Dexcom-follow
 Having an issue with dexcom follow app? Or maybe you just want to get your dexcom data on your pc?! Get your live Dexcom data via email/live in your cmd prompt! 
 
-
+# Setup
+  ```
+  install git
+  ```
 # Logging in
 In order for the code to function properly, you must
 
