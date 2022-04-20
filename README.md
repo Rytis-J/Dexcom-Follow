@@ -6,7 +6,7 @@ Have an issue with dexcom follow app? Get your live Dexcom data via email/live i
 In order for the code to function properly, you must
 
 Usage. There are 2 modes you can choose from:
-![Screenshot 2022-04-16 135104](https://user-images.githubusercontent.com/72869230/163672156-b772d8fe-ccfa-482e-8da1-e7bb41f4bc56.png)
+![Screenshot 2022-04-20 154224](https://user-images.githubusercontent.com/72869230/164232805-6f5cacfa-3fc5-45c3-b609-2773194b6c24.png)
 
 
 - **Mode [1] Live Glucose.**: Shows CGM data from the latest scan. You can set high and low glucose alerts by setting the dedicated variables to the number you want (high_glucose = 10), and if your sugar levels are going to exceed these boundaries you will hear a beep. You can remove the alerts by setting the sounds value to false (sounds = False).
