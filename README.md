@@ -64,8 +64,8 @@ There are 2 modes you can choose from:
   ```
   glucose_out_of_range = False
   ```
-  **Important information**
-    Be aware, that if your blood sugar levels are unchanged, you are not going to recieve an email!
+  ## Important information
+  **Be aware, that if your blood sugar levels are unchanged, you are not going to recieve an email!**
   
   
 # Start
