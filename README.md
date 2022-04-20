@@ -71,5 +71,5 @@ There are 2 modes you can choose from:
   python mydata.py
   ```
  
-# Credits
+# Acknowledgment
  Credits to gegebenne for developing the pydexcom API. https://github.com/gagebenne/pydexcom
