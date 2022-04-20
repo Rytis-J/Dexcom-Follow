@@ -33,11 +33,11 @@ There are 2 modes you can choose from:
   ![Screenshot 2022-04-16 135901](https://user-images.githubusercontent.com/72869230/163672510-b4ee7990-f23b-4f33-9c52-bb37f307d305.png)
 # Settings
   ## Setting alerts:
-  **Script is going to play alert sound if blood sugar levels are going to reach or go above this level (in this example X>=10)**
+  **The script is going to play an alert sound if blood sugar levels are going to reach or go above this level (in this example X>=10)**
   ```
   high_glucose = 10
   ```
-  **Script is going to play alert sound if blood sugar levels are going to go be equal or below this level (in this example X<=4)**
+  **The script is going to play an alert sound if blood sugar levels are going to go be equal or below this level (in this example X<=4)**
   ```
   low_glucose = 4
   ```
@@ -49,8 +49,8 @@ There are 2 modes you can choose from:
   ```
   sounds = False
   ```
-  ## Recieving emails
-  **This veriable will determine how oftain will you recieve emails. (In this ex. every 5 minutes) X>=5
+  ## Receiving emails
+  **This variable will determine how often will you receive emails. (In this ex. every 5 minutes) X>=5
   ```
   send_email_every_x_minutes = 5
   ```
