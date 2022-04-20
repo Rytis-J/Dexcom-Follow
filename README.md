@@ -55,6 +55,7 @@ There are 2 modes you can choose from:
   send_email_every_x_minutes = 5
   ```
   Note: value cannot be lower then 5, bacause dexcom updates every 5 minutes.
+  
   **If True, you will receive emails only if your sugar levels are going to be out of range**
   ```
   glucose_out_of_range = True
