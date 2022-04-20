@@ -15,7 +15,7 @@ Having an issue with your Dexcom Follow app? Or maybe you just want to get your 
   
   
 # Logging in
-In order for the code to function properly, you must
+In order for the code to function, you must type in your dexcom credentials. Optionaly, if you want to recieve your data via email you will need to prompt in your email credentials inside dedicated veriables. You can do it all by editing mydata.py veriables or by entering data when running mydata.py
 
 # Usage 
 There are 2 modes you can choose from:
@@ -31,5 +31,10 @@ There are 2 modes you can choose from:
 - **Mode [2] Subscribe to the latest data with your email**: If you want to subscribe with your or any other email and receive the latest glucose readings, please enter all the emails within the mails.txt box. Then run the script and choose the second option. Note: In order to send emails you must allow less secure apps to access your gmail account. I would recommend creating a new a new one. Here is an article explaining how to do it! https://devanswers.co/allow-less-secure-apps-access-gmail-account/
 
   ![Screenshot 2022-04-16 135901](https://user-images.githubusercontent.com/72869230/163672510-b4ee7990-f23b-4f33-9c52-bb37f307d305.png)
+ # Start
+  ```
+  python mydata.py
+  ```
+ 
  # Credits
  Credits to gegebenne for developing pydexcom API. https://github.com/gagebenne/pydexcom
