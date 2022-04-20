@@ -32,15 +32,27 @@ There are 2 modes you can choose from:
 
   ![Screenshot 2022-04-16 135901](https://user-images.githubusercontent.com/72869230/163672510-b4ee7990-f23b-4f33-9c52-bb37f307d305.png)
 # Settings
+  ## Units (mmol/L by default)
+  **mmol/L**
+  ```
+  mg_dl = False
+  ```
+  **mg/dL**
+  ```
+  mg_dl = True
+  ```
+  *Line 38*
   ## Setting alerts:
-  **The script is going to play an alert sound if blood sugar levels are going to reach or go above this level (in this example 10 mmol/l)**
+  **The script is going to play an alert sound if blood sugar levels are going to reach or go above this level (in this example 10 mmol/L)**
   ```
-  high_glucose = 10
+  high_glucose = 10 | high_glucose = 180 (if using mg/dl)            
   ```
-  **The script is going to play an alert sound if blood sugar levels are going to go be equal or below this level (in this example 4 mmol/l)**
+  *Line 24*
+  **The script is going to play an alert sound if blood sugar levels are going to go be equal or below this level (in this example 4 mmol/L)**
   ```
   low_glucose = 4
   ```
+  *Line 26* 
   **By setting this option to True, you are going to receive alerts if your blood sugar levels are going to exceed the set range**
   ```
   sounds = True
@@ -49,11 +61,13 @@ There are 2 modes you can choose from:
   ```
   sounds = False
   ```
+  *Line 29* 
   ## Receiving emails
   **This variable will determine how often will you receive emails. (In this ex. every 5 minutes)**
   ```
   send_email_every_x_minutes = 5
   ```
+  *Line 36* 
   **NOTE**: value cannot be lower then 5, bacause dexcom updates every 5 minutes.
   
   **If True, you will receive emails only if your sugar levels are going to be out of range**
@@ -64,6 +78,7 @@ There are 2 modes you can choose from:
   ```
   glucose_out_of_range = False
   ```
+  *Line 32* 
   ## Important information
   **Be aware, that if your blood sugar levels are unchanged, you are not going to recieve an email!**
   
