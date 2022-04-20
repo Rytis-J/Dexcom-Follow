@@ -5,6 +5,9 @@ Having an issue with dexcom follow app? Or maybe you just want to get your dexco
   ```
   install git
   ```
+  ```
+  git clone https://github.com/Rytis-J/dexcomfollow.git
+  ```
 # Logging in
 In order for the code to function properly, you must
 
