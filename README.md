@@ -33,9 +33,21 @@ There are 2 modes you can choose from:
   ![Screenshot 2022-04-16 135901](https://user-images.githubusercontent.com/72869230/163672510-b4ee7990-f23b-4f33-9c52-bb37f307d305.png)
 # Settings
   ## Setting alerts:
-  **Script is going to play alert sound if glucose is going to reach this level**
+  **Script is going to play alert sound if glucose is going to reach or go above this level (in this example X>=10)**
   ```
   high_glucose = 10
+  ```
+  **Script is going to play alert sound if glucose is going to go be equal or below this level (in this example X<=4)**
+  ```
+  low_glucose = 4
+  ```
+  **By setting this option to True, you are going to receive alerts if your blood sugar levels are going to exceed the set range (high_glucose < X < low_glucose)**
+  ```
+  sounds = True
+  ```
+  **By setting this option to False, you are not going to receive any alerts**
+  ```
+  sounds = False
   ```
 # Start
   ```
