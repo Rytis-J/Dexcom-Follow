@@ -1,5 +1,5 @@
 # Dexcom-follow
-Having an issue with dexcom follow app? Or maybe you just want to get your dexcom data on your pc?! Get your live Dexcom data via email/live in your cmd prompt! 
+Having an issue with your dexcom follow app? Or maybe you just want to get your dexcom data/recieve alerts on computer?! Get your live Dexcom data via email/live in your Command Prompt!
 
 # Setup
   If not installed, install Python 3, Git - https://www.python.org/downloads/ https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
