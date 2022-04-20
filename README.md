@@ -1,5 +1,5 @@
 # Dexcom-follow
-Have an issue with dexcom follow app? Get your live Dexcom data via email/live in your cmd prompt! 
+Having an issue with dexcom follow app? Or maybe you just want to get your dexcom data on your pc?! Get your live Dexcom data via email/live in your cmd prompt! 
 
 
 # Logging in
