@@ -53,6 +53,7 @@ There are 2 modes you can choose from:
   low_glucose = 4
   ```
   *Line 26* 
+  
   **By setting this option to True, you are going to receive alerts if your blood sugar levels are going to exceed the set range**
   ```
   sounds = True
@@ -62,12 +63,14 @@ There are 2 modes you can choose from:
   sounds = False
   ```
   *Line 29* 
+  
   ## Receiving emails
   **This variable will determine how often will you receive emails. (In this ex. every 5 minutes)**
   ```
   send_email_every_x_minutes = 5
   ```
   *Line 36* 
+  
   **NOTE**: value cannot be lower then 5, bacause dexcom updates every 5 minutes.
   
   **If True, you will receive emails only if your sugar levels are going to be out of range**
@@ -78,7 +81,8 @@ There are 2 modes you can choose from:
   ```
   glucose_out_of_range = False
   ```
-  *Line 32* 
+  *Line 32*
+  
   ## Important information
   **Be aware, that if your blood sugar levels are unchanged, you are not going to recieve an email!**
   
