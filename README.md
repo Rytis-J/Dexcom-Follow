@@ -2,13 +2,17 @@
 Having an issue with dexcom follow app? Or maybe you just want to get your dexcom data on your pc?! Get your live Dexcom data via email/live in your cmd prompt! 
 
 # Setup
-  If not installed, install Python 3, Git. https://www.python.org/downloads/ https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+  If not installed, install Python 3, Git - https://www.python.org/downloads/ https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
   ```
   git clone https://github.com/Rytis-J/dexcomfollow.git
   ```
   ```
   cd dexcomfollow
   ```
+  ```
+  pip install -r requirements.txt
+  ```
+  
   
 # Logging in
 In order for the code to function properly, you must
