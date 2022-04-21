@@ -8,7 +8,8 @@ Current dexcom readings:
 Latest glucose reading: 5.4
 trend_description: steady, →
 ```
-**Note:** to change it to mg/dL check out settings tab
+**Note:** to change it to mg/dL check out settings tab.
+
 2. I always wanted to see my Dexcom data on my computer. As of now, there is no way to see your data on it. Sometimes when you're working with your headphones on, it's hard to hear alerts! That's why I developed **Mode [1] Live Glucose**. You can set alerts within the script so you could receive a *Beeep* if your sugar levels are out of range ;-) 
 
 # Setup
