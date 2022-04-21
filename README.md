@@ -5,9 +5,10 @@ Have an issue with your Dexcom Follow app? Or maybe you just want to get your De
 1. Many Dexcom users are having trouble using Dexcom Follow due to various circumstances. For some, they have incompatible devices for others it's a software glitch. I came up with the idea to help people with these problems. For this problem, I created **Mode [2] Subscribe to the latest data with your email**. No matter what device you are using, as long as there is an emailing system in it, you're good to go! You will receive a detailed email with the latest glucose reading!
 ```
 Current dexcom readings:
-Latest glucose reading: 5.4 | You can set it to mg/dL as well. You'll find everything in the settings section below.  
+Latest glucose reading: 5.4
 trend_description: steady, →
 ```
+**Note:** to change it to mg/dL check out settings tab
 2. I always wanted to see my Dexcom data on my computer. As of now, there is no way to see your data on it. Sometimes when you're working with your headphones on, it's hard to hear alerts! That's why I developed **Mode [1] Live Glucose**. You can set alerts within the script so you could receive a *Beeep* if your sugar levels are out of range ;-) 
 
 # Setup
