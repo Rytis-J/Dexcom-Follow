@@ -14,7 +14,6 @@ trend_description: steady, →
 
 # Setup
   If not installed, install Python 3, Git - https://www.python.org/downloads/, https://git-scm.com/book/en/v2/Getting-Started-Installing-Git. 
-  Don't forget to enable Dexcom share service! https://provider.dexcom.com/education-research/cgm-education-use/videos/setting-dexcom-share-and-follow
   ```
   git clone https://github.com/Rytis-J/dexcomfollow.git
   ```
@@ -24,7 +23,7 @@ trend_description: steady, →
   ```
   pip install -r requirements.txt
   ```
-  
+  Don't forget to enable Dexcom share service! https://provider.dexcom.com/education-research/cgm-education-use/videos/setting-dexcom-share-and-follow
   
 # Logging in
 For the code to function, you must type in your Dexcom credentials. Optionally, if you want to receive your data via email you will need to prompt in your email credentials inside dedicated variables. You can do it all by editing mydata.py variables or by entering data when running mydata.py. By default code works only with gmail accounts. If you wish to change service provider go to # https://www.systoolsgroup.com/imap/ and change ```gmail_host```(line 116) value to your chosen one.
