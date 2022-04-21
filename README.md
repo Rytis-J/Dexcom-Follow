@@ -13,7 +13,7 @@ trend_description: steady, →
 2. I always wanted to see my Dexcom data on my computer. As of now, there is no way to see your data on it. Sometimes when you're working with your headphones on, it's hard to hear alerts! That's why I developed **Mode [1] Live Glucose**. You can set alerts within the script so you could receive a *Beeep* if your sugar levels are out of range ;-) 
 
 # Setup
-  If not installed, install Python 3, Git - https://www.python.org/downloads/, https://git-scm.com/book/en/v2/Getting-Started-Installing-Git. Don't forget to enable Dexcom share service!https://provider.dexcom.com/education-research/cgm-education-use/videos/setting-dexcom-share-and-follow
+  If not installed, install Python 3, Git - https://www.python.org/downloads/, https://git-scm.com/book/en/v2/Getting-Started-Installing-Git. Don't forget to enable Dexcom share service! https://provider.dexcom.com/education-research/cgm-education-use/videos/setting-dexcom-share-and-follow
   ```
   git clone https://github.com/Rytis-J/dexcomfollow.git
   ```
