@@ -108,6 +108,7 @@ There are 2 modes you can choose from:
 
 # Support the project
   If you would like to contribute to this, and all the upcoming projects related to diabetes you can send me over some crypto. All of the donated funds will go towards developing better software for people with diabetes.
+  
   **BTC**
   ```
   3A9S5Jm5dn7e5Lj695VTj5amd8e9zk1rJF
