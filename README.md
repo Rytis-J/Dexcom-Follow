@@ -1,6 +1,15 @@
 # Dexcom-follow
 Have an issue with your Dexcom Follow app? Or maybe you just want to get your Dexcom data/receive alerts on your computer?! Get your live Dexcom data via email, live in your Command Prompt!
 
+# Why?
+1. Many Dexcom users are having trouble using Dexcom Follow due to various circumstances. For some, they have incompatible devices for others it's a software glitch. I came up with the idea to help people with these problems. For this problem, I created **Mode [2] Subscribe to the latest data with your email**. No matter what device you are using, as long as there is an emailing system in it, you're good to go! You will receive a detailed email with the latest glucose reading!
+```
+Current dexcom readings:
+Latest glucose reading: 5.4 | You can set it to mg/dL as well. You'll find everything in the settings section below.  
+trend_description: steady, →
+```
+2. I always wanted to see my Dexcom data on my computer. As of now, there is no way to see your data on it. Sometimes when you're working with your headphones on, it's hard to hear alerts! That's why I developed **Mode [1] Live Glucose**. You can set alerts within the script so you could receive a *Beeep* if your sugar levels are out of range ;-) 
+
 # Setup
   If not installed, install Python 3, Git - https://www.python.org/downloads/, https://git-scm.com/book/en/v2/Getting-Started-Installing-Git.
   ```
@@ -28,7 +37,7 @@ There are 2 modes you can choose from:
 
 
 
-- **Mode [2] Subscribe to the latest data with your email**: If you want to subscribe with your or any other email and receive the latest glucose readings, please enter all the emails within the mails.txt box. Then run the script and choose the second option. Note: In order to send emails you must allow less secure apps to access your gmail account. I would recommend creating a new a new one. Here is an article explaining how to do it! https://devanswers.co/allow-less-secure-apps-access-gmail-account/
+- **Mode [2] Subscribe to the latest data with your email**: If you want to subscribe with your or any other email and receive the latest glucose readings via email, please enter all the emails within the mails.txt box. Then run the script and choose the second option. Note: In order to send emails you must allow less secure apps to access your gmail account. I would recommend creating a new a new one. Here is an article explaining how to do it! https://devanswers.co/allow-less-secure-apps-access-gmail-account/
 
   ![Screenshot 2022-04-16 135901](https://user-images.githubusercontent.com/72869230/163672510-b4ee7990-f23b-4f33-9c52-bb37f307d305.png)
 # Settings
