@@ -105,6 +105,7 @@ There are 2 modes you can choose from:
   ```
 # Future development
   I have quite a few ideas on how I can improve this project so stay put :smile:.
+  In the next realease I will include a cloud based option, so you could recieve emails with data without running the script on your local pc.
 
 # Support the project
   If you would like to contribute to this, and all the upcoming projects related to diabetes you can send me over some crypto. All of the donated funds will go towards developing better software for people with diabetes.
