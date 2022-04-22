@@ -105,6 +105,7 @@ There are 2 modes you can choose from:
   ```
 # Future development
   I have quite a few ideas on how I can improve this project so stay put :smile:.
+  
   In the next realease I will include a cloud based option, so you could recieve emails with data without running the script on your local pc.
 
 # Support the project
