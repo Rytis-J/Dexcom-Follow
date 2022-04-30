@@ -1,5 +1,5 @@
 # Dexcom-follow
-Have an issue with your Dexcom Follow app? Or maybe you just want to get your Dexcom data/receive alerts on your computer?! Get your live Dexcom data via email, live in your Command Prompt!
+Have an issue with your Dexcom Follow app? Or maybe you just want to get your Dexcom data/receive alerts on your computer?! Get your live Dexcom data via email, live in the Command Prompt on your pc!
 
 # Why?
 1. Many Dexcom users are having trouble using Dexcom Follow due to various circumstances. For some, they have incompatible devices for others it's a software glitch. I came up with the idea to help people with these problems. For this problem, I created **Mode [2] Subscribe to the latest data with your email**. No matter what device you are using, as long as there is an emailing system in it, you're good to go! You will receive a detailed email with the latest glucose reading!
