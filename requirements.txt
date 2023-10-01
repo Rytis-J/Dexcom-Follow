@@ -1,3 +1,4 @@
 pydexcom==0.2.0
 playsound==1.2.2
 meme==2.0.0
+pyobjc==10.0

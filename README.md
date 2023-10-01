@@ -94,6 +94,13 @@ There are 2 modes you can choose from:
   glucose_out_of_range = False
   ```
   *Line 32*
+
+  ## Country of origin
+  **By default Dexcom-Follow will only work for people outside the United States. In order for United States based accounts to work, make sure to set the region boolean to True**
+  ```
+  region = False
+  ```
+  *Line 42* 
   
   ## Important information
   **Be aware, that if your blood sugar levels are unchanged, you are not going to recieve an email!**

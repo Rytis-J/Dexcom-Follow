@@ -9,10 +9,10 @@ from email.mime.text import MIMEText
 
 
 #dexcom name
-dexcomname = "dexcom name"
+dexcomname = "name"
 
 #dexcom password
-dexcompassword = "dexcom password"
+dexcompassword = "password"
 
 #Email
 useremail ="Your_email_adress@gmail.com"
@@ -35,7 +35,11 @@ glucose_out_of_range = False
 
 send_email_every_x_minutes = 5 #input time you wait to wait before a new email (Dexcom sends updates every 5 minutes so setting value to less then 5 is not recommended)
 
+# for mmol/l set to false, for mg/dl set to true
 mg_dl = False
+
+# Account registered location true if USA, False if outside USA
+region = False
 
 
 
@@ -84,7 +88,7 @@ def dexcomlogin(dexcomname, dexcompassword):
         dexcom = Dexcom(dexcomname, dexcompassword, ous=True)
         bg = dexcom.get_current_glucose_reading()
         front()
-        print("Successfully loged in to dexcom!")
+        print("Successfully logged in to dexcom!")
         lines()
         time.sleep(4)
         front()
@@ -159,8 +163,8 @@ def dexcomfollow(username, app_password):
         print(f"Emails will only be sent if glucose is going to be out of the set range (Higer then {high_glucose} or lower then {low_glucose})")
     lines()
     def currentglucose():
-        __init__ = Dexcom(dexcomname, dexcompassword, ous=True)
-        dexcom = Dexcom(dexcomname, dexcompassword, ous=True)
+        __init__ = Dexcom(dexcomname, dexcompassword, ous=region)
+        dexcom = Dexcom(dexcomname, dexcompassword, ous=region)
         bg = dexcom.get_current_glucose_reading()
         if mg_dl == False:
             return bg.mmol_l
@@ -168,8 +172,8 @@ def dexcomfollow(username, app_password):
             return bg.mg_dl
 
     def sendemail(receiver, username, app_password):
-        __init__ = Dexcom(dexcomname, dexcompassword, ous=True)
-        dexcom = Dexcom(dexcomname, dexcompassword, ous=True)
+        __init__ = Dexcom(dexcomname, dexcompassword, ous=region)
+        dexcom = Dexcom(dexcomname, dexcompassword, ous=region)
 
         # ous=True# add ous=True if outside of US
         bg = dexcom.get_current_glucose_reading()
@@ -248,44 +252,68 @@ def live():
     refreshtime = 10
     front()
     print(f"Live dexcom data! Refreshes every {refreshtime} seconds:")
+    
     if mg_dl == False:
         while True:
             __init__ = Dexcom(dexcomname, dexcompassword, ous=True)
             dexcom = Dexcom(dexcomname, dexcompassword, ous=True)
             bg = dexcom.get_current_glucose_reading()
-            arrow = bg.trend_arrow
-            if bg.mmol_l != lastscan:
-                front()
-                print(f"Live dexcom data! Refreshes every {refreshtime} seconds:")
-                lastscan = bg.mmol_l
-                print('\033[1m')
-                print("Current glucose:", bg.mmol_l, arrow)
-                print('\033[0m')
-                if sounds == True:
-                    def function_sound():
-                        playsound('sound.mp3')
-                    if lastscan > high_glucose or lastscan < low_glucose:
-                        function_sound()
+            try:
+
+                arrow = bg.trend_arrow
+                if bg.mmol_l != lastscan:
+                    front()
+                    print(f"Live dexcom data! Refreshes every {refreshtime} seconds:")
+                    lastscan = bg.mmol_l
+                    print('\033[1m')
+                    print("Current glucose:", bg.mmol_l, arrow)
+                    print('\033[0m')
+                    if sounds == True:
+                        def function_sound():
+                            playsound('sound.mp3')
+                        if lastscan > high_glucose or lastscan < low_glucose:
+                            function_sound()
+
+            except Exception as e:
+
+                if(not bg):
+                    print("Failed to fetch the latest datascan from Dexcom, make sure you have readings on the official Dexcom app.")
+                else:
+                    print("Error while playing alert sound")
+                    
+                
+            time.sleep(refreshtime)
+
     else:
         while True:
             __init__ = Dexcom(dexcomname, dexcompassword, ous=True)
             dexcom = Dexcom(dexcomname, dexcompassword, ous=True)
             bg = dexcom.get_current_glucose_reading()
-            arrow = bg.trend_arrow
-            if bg.mg_dl != lastscan:
-                front()
-                print(f"Live dexcom data! Refreshes every {refreshtime} seconds:")
-                lastscan = bg.mg_dl
-                print('\033[1m')
-                print("Current glucose:", bg.mg_dl, arrow)
-                print('\033[0m')
-                if sounds == True:
-                    def function_sound():
-                        playsound('sound.mp3')
-                    if lastscan > high_glucose or lastscan < low_glucose:
-                        function_sound()
+            try:
+                arrow = bg.trend_arrow
+
+                if bg.mg_dl != lastscan:
+                    front()
+                    print(f"Live dexcom data! Refreshes every {refreshtime} seconds:")
+                    lastscan = bg.mg_dl
+                    print('\033[1m')
+                    print("Current glucose:", bg.mg_dl, arrow)
+                    print('\033[0m')
+                    if sounds == True:
+                        def function_sound():
+                            playsound('sound.mp3')
+                        if lastscan > high_glucose or lastscan < low_glucose:
+                            function_sound()
+
+            except Exception as e:
+
+                if(not bg):
+                    print("Failed to fetch the latest datascan from Dexcom, make sure you have readings on the official Dexcom app.")
+                else:
+                    print("Error while playing alert sound")
+                    
         
-        time.sleep(refreshtime)
+            time.sleep(refreshtime)
         
 
 
